@@ -222,7 +222,8 @@ erase --刪除
     - abbrev/^([zcs]h).+$/$1/
     - derive/^([nl])ve$/$1ue/
     - derive/^([jqxy])u/$1v/
-    - derive/un$/uen/
+    - derive/un$/uen/            # 字典文件內所有以un作為結尾的均可輸入uen代替
+    - derive/^jyu/ju/            # 容錯 jyu -> ju
     - derive/ui$/uei/
     - derive/iu$/iou/
     - derive/([aeiou])ng$/$1gn/
