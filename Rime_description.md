@@ -661,7 +661,7 @@ version: "0.1"
 
 <h2>配置</h2>
 
-<ol><li><code>sort:</code> 字典<b>初始</b>排序，可選<code>original</code>或<code>by_weight</code></li>
+<ol><li><code>sort:</code> 字典<b>初始</b>排序 (需設定enable_user_dict 為 false)，可選<code>original</code>或<code>by_weight</code></li>
 <li><code>use_preset_vocabulary:</code> 是否引入「八股文」〔含字詞頻、詞庫〕</li>
 <li><code>max_phrase_length:</code> 配合<code>use_preset_vocabulary:</code>，設定導入詞條最大詞長</li>
 <li><code>min_phrase_weight:</code> 配合<code>use_preset_vocabulary:</code>，設定導入詞條最小詞頻</li>
